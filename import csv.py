@@ -34,4 +34,4 @@ df = pd.concat([df, nova_linha_df], ignore_index=True)
 print(df)
 
 # Salve o aquivo
-df.to_csv("primeiropandas/planilha_nova.csv", index=False)
+df.to_csv("primeiropandas/planilhas/planilha_nova.csv", index=False)
